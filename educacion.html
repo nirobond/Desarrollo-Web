@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-widht,user-scalable=no">
+    <title>Educación</title>
+  </head>
+  <body>
+    <svg width="100px" height="76px">
+      <image xlink:href="Logo.svg" width="200px" height="150px"></image>
+    </svg>
+    <header>
+      <h1>Hoja de Vida</h1>
+    </header>
+      <h2>Nombre: Orlando Alexander Arley Sanchez</h2>
+      <h3>Lugar y Fecha de Nacimiento: San José, Costa Rica, 8 Agosto 1980</h3>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="educacion.html">Educación</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+      <h2>Educación</h2>
+      <table border cellpadding=10 cellspacing=0>
+        <tr>
+          <th>Año</th>
+          <th>Institución</th>
+          <th>Lugar</th>
+          <th>¿Culminó?</th>
+        </tr>
+        <tr>
+          <td>2002</td>
+          <td>Instituto Latinoamericado de Ciencia</td>
+          <td>San José</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>Next U</td>
+          <td>San José</td>
+          <td>En Proceso</td>
+        </tr>
+      </table>
+      <form action="educacion.html" method="post">
+        <h3><legend>Agregar Estudios</legend></h3>
+        <p> <label for="Year"><strong>Año:</strong></label>
+          <select class="" name="">
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+          </select>
+        </p>
+        <p>
+          <label for="Institución"><strong>Institución:</strong></label>
+    			<input type="text" required>
+    		</p>
+        <p>
+    			<label for="Lugar"><strong>Lugar:</strong></label>
+    			<textarea name="Lugar:" rows="2" cols="22"></textarea>
+    		</p></br>
+        <input type="submit" value="Enviar">
+      </form></br>
+
+      <footer>
+        <strong>Correo Electrónico</strong>: nirobond@gmail.com</br>
+        <strong>Teléfono</strong>: (506) 8618-7997</br>
+        <strong>Dirección</strong>: San José, Costa Rica
+      </footer>
+  </body>
+</html>
